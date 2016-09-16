@@ -12,10 +12,11 @@ namespace FormsTest1
         public App()
         {
             // The root page of your application
-            MainPage = new MainUI()
+            
+            MainPage = new NavigationPage(new MainUI()
             {
-                
-            };
+
+            });
         }
 
         protected override void OnStart()

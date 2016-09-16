@@ -27,8 +27,10 @@ namespace FormsTest1
         private void BtnVolver_Clicked(object sender, EventArgs e)
         {
             //this.Navigation.PushModalAsync(new MainUI());
-            base.OnBackButtonPressed();
+            //base.OnBackButtonPressed();
             //this.Navigation.RemovePage(this);
+            //this.Navigation.
+            this.Navigation.PopModalAsync();
         }
     }
 }
