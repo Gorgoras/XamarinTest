@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormsTest1.SecUI">
+  <StackLayout Padding="13">
+    <!-- <Label Text="Usted escribió " x:Name="lbl1"></Label>-->
+    <Label Text="Segunda interfaz" FontSize="30"></Label>
+
+    <Label Text="Intento 2 para ver lo que escribio: " x:Name="lbl2"></Label>
+    <Button Text="Volver" x:Name="btnVolver"></Button>
+  </StackLayout>
+
+  </ContentPage>
