@@ -4,9 +4,8 @@
              x:Class="FormsTest1.SecUI">
   <StackLayout Padding="13">
     <!-- <Label Text="Usted escribió " x:Name="lbl1"></Label>-->
-    <Label Text="Segunda interfaz" FontSize="30"></Label>
-
-    <Label Text="Intento 2 para ver lo que escribio: " x:Name="lbl2"></Label>
+    <Label Text="" FontSize="30" x:Name="lblTitulo"></Label>
+    <Label Text="" x:Name="lbl2"></Label>
     <Button Text="Volver" x:Name="btnVolver"></Button>
   </StackLayout>
 

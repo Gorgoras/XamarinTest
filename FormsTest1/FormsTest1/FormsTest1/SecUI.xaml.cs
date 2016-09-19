@@ -17,6 +17,7 @@ namespace FormsTest1
             //BindingContext = model;
             //lbl1.Text += model.Texto;
             lbl2.Text += model.Texto;
+            lblTitulo.Text += model.Titulo;
         }
         protected override void OnAppearing()
         {

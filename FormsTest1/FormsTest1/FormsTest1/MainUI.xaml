@@ -8,6 +8,8 @@
 
     <Entry Placeholder="Ingrese un texto" x:Name="textBox1"></Entry>
     <Button Text="Mostrar con Alerta!" x:Name="btn1" ></Button>
+    
+  
     <Button Text="Mostrar en otra página!" x:Name="btn2" ></Button>
   </StackLayout>
   

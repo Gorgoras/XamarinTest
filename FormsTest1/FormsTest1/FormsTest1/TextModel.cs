@@ -8,6 +8,7 @@
 
         }
         public string Texto { get { return _texto; } set { _texto = value; } }
+        public string Titulo { get; set; }
         public int MyProperty { get; set; }
     }
 }
